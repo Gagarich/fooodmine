@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
       } else {
         foodsObservable = foodService.getAll();
       }
+
       foodsObservable.subscribe((serverFoods) => {
         this.foods = serverFoods
       })

@@ -82,3 +82,30 @@
     10. Add urs.ts to frontend
     11. Add HttpClient module
     12. Update food service
+12. Login Page
+    1. Generate Component
+        1. Add to routes
+        2. Add ts
+        3. Add html
+            1. Import Reactive Forms Module
+        4. Add Css
+    2. Add Login Api
+        1. Use json
+        2. Add jsonwebtoken (npm install jsonwebtoken)
+        3. test Using Postman
+    3. Generate User Service
+        1. Generate User model
+        2. Add User Subject
+        3. Add Login Method
+            1. Add User Urls
+            2. Generate IUserLogin interface
+            3. Add ngx-toastr
+                1. Import Module(npm install ngx-toastr)
+                2. Import BrowserAnimationsModule
+                3. Add styles in angular.json
+            4. Add to Header
+        4. Add Local Storage methods
+        5. Add Logout Method
+            1. Add to Header
+13. Make Components For Login Page
+
