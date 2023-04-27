@@ -112,3 +112,15 @@
     2. Input Validation
     3. Text Input
     4. Default Button
+14. Connect Login API To MongoDB
+    1. Moving Apis into routers
+    2. Create MongoDB Atlas
+    3. Create .env file
+    4. Install (npm install mongoose dotenv bcryptjs express-async-handler)
+        1. monoose
+        2. dotenv
+        3. bcryptjs
+        4. jsonwebtoken
+        5. express-async-handler
+    5. Connect to MongoDB Atlas
+    6. Use MongoDb instead of data.ts in apis
